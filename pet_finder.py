@@ -63,7 +63,7 @@ class PetFinder:
 
         global global_pets
         global_pets = [""]
-        schedule.every(5).seconds.do(job)
+        schedule.every(5).minutes.do(job)
         while 1:
             schedule.run_pending()
             time.sleep(1)
