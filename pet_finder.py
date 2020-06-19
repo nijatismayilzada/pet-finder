@@ -48,7 +48,7 @@ def email(pets):
         server.sendmail(argument.sender, argument.receiver, message)
 
 
-class CommandLine:
+class PetFinder:
     def __init__(self):
         parser = argparse.ArgumentParser(description="Description for my parser")
         parser.add_argument("-u", "--url",
@@ -70,4 +70,4 @@ class CommandLine:
 
 
 if __name__ == '__main__':
-    app = CommandLine()
+    app = PetFinder()
