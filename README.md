@@ -1,5 +1,12 @@
 # pet-finder-python
 
+This tiny script is for polling available pets to rehome from Scottish SPCA:
+
+https://www.scottishspca.org/rehome/rehome
+
+It runs every 5 minutes, checks for the list of pets and emails you the list if there is a change (addition or removal too)
+
+
 Example usage:
 
 ```python
